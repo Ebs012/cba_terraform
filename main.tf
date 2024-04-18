@@ -35,7 +35,7 @@ resource "aws_security_group" "cba_tf_sg" {
  }
 }
 
-data "aws_key_pair" "ebs-keypair1" {
+data "aws_key_pair" "" {
   key_name = var.key_name
 }
 
